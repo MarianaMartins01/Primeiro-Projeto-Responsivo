@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+input{
+    border: 1px solid red;
+}
+input::placeholder{/* Os :: faz com que estilize dentro do input*/
+    color: blueviolet;
+}
+p{
+    color: brown;
+}
+p::first-letter{/* Para estilizar somente a primeira letra ou first-line para a primeira linha*/
+    color: blue;
+
+}
+a::after{/* after pu before para colocar um conteudo antes ou depois do link*/
+    content:"😊";/*Content é o conteudo antes(before) ou depois(after)*/
+}

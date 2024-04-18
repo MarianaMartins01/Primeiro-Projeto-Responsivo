@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* PSEUDO CLASSES 
+Troca e seleciona elemesntos especificos
+
+:active = quando o elemento esta ativo, ou seja, está sendo pressionado. Enquanto esta clicando. 
+e
+EXEMPLO:
+*/
+
+a:active{
+    color: red;
+}
+
+/*
+:visited = seleciona o link que foi visitado
+*/
+a:visited {
+    color: blue;
+}
+/*
+:hover = quando o mouse passa em cima do elemento. Exemplo:
+*/
+a:hover{
+    color:blueviolet;
+}
+/*
+:checked = usado em radio/ checkbox/ select. Vai aparece um simbolo depois que clicar nele
+*/
+input:checked{
+    width: 100px;
+    height: 100px;
+}
+/*
+:disabled = para estilizar o elemento desabilitado / button / input
+*/
+input:disabled{
+    color:brown;
+}
+/*
+enabled = para estilizar o elemento quando esta habilitado
+*/
+input:enabled{
+    color:pink;
+}
+/*
+:focus = é aplicada quando um elemento recebe foco, o que pode ocorrer quando o usuario seleciona o elemento
+*/
+input:focus{
+    border: 1px solid gray;
+    outline: none; /*Para não aparecer a borda azul do input*/
+}
+/*
+:read-only = seleciona input ou textarea que sao apenas leitura
+*/
+input:read-only{
+    border: 1px solid rgb(13, 82, 231);
+    outline: none;
+}
+/*
+:empty = elemento que não tem filho. Exemplo:
+*/
+.xablau{
+    height: 100px;
+    width: 100px;
+    background: yellow;
+}
+.xablau:empty{
+    background: lightcoral;
+}
+
+
+/*
+PARTE 2 DAS PSEUDO CLASSE
+*/
+
+/*
+:first-child = primeiro filho / ex: primeira li ou ul / primeira span de uma div. Se tiver duas ul vai ser a primeira li de cada ul
+*/
+li:first-child{
+    color: red;
+}
+/*
+:first-of-type = primeiro elemento do seu tipo entre os filhos de seu elemnto pai
+*/
+span:first-of-type{
+    color:blue
+}
+p:first-of-type{
+    color: green;
+}
+/*
+:last-child = ultimo filho
+*/
+li:last-child{
+    color: aqua;
+}
+/*
+:last-of-type = ultimo elemnto do seu tipo entre os filhos de seu elemnto pai
+*/
+span:last-of-type{
+    color:rebeccapurple;
+}
+/*
+:not() = estiliza os elemntos, exceto o que esta dentro do ()
+*/
+.container :not(p){
+    color:blue
+}
+
+/*
+:nth-child() = seleciona o elemnto baseado na sua posição. Ex: :nth-child(3)
+*/
+li:nth-child(1){
+    color: palevioletred;
+}
+/*
+nth-last-child() = seleciona o elemento baseado na sua posição, contando de tras para frente.
+*/
+li:nth-last-child(1){
+    color:blue
+}
+/*
+
+*/
+
+/*
+
+*/
