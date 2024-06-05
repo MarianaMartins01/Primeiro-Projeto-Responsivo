@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 a{
     font-weight: 600;
@@ -39,7 +40,7 @@ h1{
     margin-left: 30px;
     color:#515151;
     width: 513;
-    margin-top: 100px;
+    margin-top: 50px;
     
 }
 h2{

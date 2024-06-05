@@ -3,9 +3,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 header{
-    margin: 47px 0px 0px 42px;
+    margin: 10px 0px 0px 42px;
 }
 
 
@@ -29,12 +30,13 @@ a{
     margin-left: 42px;
     color: #ffffff;
 }
-.botao1::active{
+.botao1:active{
     opacity: 50%;
+    color: aqua;
    
 }
 img{
-    margin: 163px 0 0 123px;
+    margin: 20px 5px 0 100px;
     display: inline-block;
 }
 div{
@@ -76,7 +78,7 @@ p{
 
 }
 
-@media  screen and (max-width: 1200px){
+@media  screen and (max-width: 1286px){
     a{
         display: none;
     }
@@ -91,7 +93,7 @@ p{
         font-weight: 500;
         line-height: 18px;
         letter-spacing: 1px;
-        margin: 0px 23px 150px 500px;
+        margin: auto 50%;
     }
     
 
@@ -102,6 +104,7 @@ p{
         line-height: 30px;
         letter-spacing: 0.5961538553237915px;
         text-align: center;
+        margin: auto 50%;
     }
     p{
         width: auto;
@@ -114,20 +117,22 @@ p{
 
     }
     .leia-mais{
-        width: auto;
+        margin: 0 auto;
+        width: 50%;
         height: 27px;
         font-size: 18px;
         font-weight: 500;
         line-height: 27px;
         letter-spacing: 1px;
         text-align: center;
-        margin: 0px 0px 50px 250px
 
     }
     img{
-        width: 50%;
         height: 288px;
-        position: fixed;
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        width: 60%;
         
     }
 

@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 .container {
     height: 100vh;
@@ -11,8 +12,8 @@
 .container-left {
     display: inline-block;
     width: 60%;
-    padding-left: 136px ;
-    margin-top: 20%;
+    padding-left: 50px ;
+    margin-top: 10%;
 }
 .container-right {
     display: inline-block;
@@ -22,8 +23,8 @@
     position: absolute;
 }
 img{
-    top: 25%;
-    right: 130px;
+    top: 10%;
+    width: 400px;
     position: relative;
 }
 h1{
@@ -32,7 +33,7 @@ h1{
     line-height: 80px;
     color: #5d5d7d;
 
-    width: 368px;
+    width: 360px;
     
 }
 p{
@@ -84,7 +85,7 @@ a:active{
     opacity: 0.8;
 }
 header{
-    margin: 24px 0 0 57px;
+    margin: 10px 0 0 30px;
 }
 @media screen and (max-width: 1070px){
     .container-left{
